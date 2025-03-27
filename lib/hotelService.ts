@@ -1,4 +1,4 @@
-const GOOGLE_PLACES_API_KEY = "8fb78451cced0c9ab73432a6a4b6b10ed1f2a346";
+const GOOGLE_PLACES_API_KEY = 'your api key'
 
 export async function fetchHotels(location: string) {
   const url = `https://maps.googleapis.com/maps/api/place/textsearch/json?query=hotels+in+${location}&key=${GOOGLE_PLACES_API_KEY}`;
